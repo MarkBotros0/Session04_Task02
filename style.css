@@ -1,0 +1,234 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.btn-txt {
+    color: white;
+}
+
+.btn {
+    background-color: #51dcc5;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+
+.btn2 {
+    background-color: #51dcc5;
+    border-radius: 20px;
+}
+
+body {
+    padding: 0px 10% 0px 10%;
+}
+
+.intro img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: #d8d8d8 0px 0px 0px 20px, #efefef 0px 0px 0px 40px;
+
+}
+
+.intro {
+    padding-top: 100px;
+}
+
+.about-me {
+    margin-top: 15%;
+}
+
+.about-me-box {
+    border: 1px solid #51dcc5;
+}
+
+.about-me img {
+    width: 400px;
+
+}
+
+.what-i-do {
+    margin-top: 200px;
+}
+
+.what-i-do i {
+    font-size: 28PX;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.intro i {
+    margin-right: 20px;
+}
+
+.progresses {
+    margin-top: 15%;
+}
+
+.progress-bar {
+    background-color: #51dcc5;
+}
+
+.bars {
+    padding: 50px;
+}
+
+.education-experience {
+    margin-top: 15%;
+}
+
+.portofolio {
+    margin-top: 15%;
+}
+
+.pricing {
+    margin-top: 15%;
+}
+
+.education-text {
+    color: #51dcc5;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.portofolio .active {
+    border-bottom: 1px solid #51dcc5 !important;
+
+}
+
+.portofolio img {
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.pricing i {
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.pricing h1 {
+    color: #51dcc5;
+}
+
+.pricing a {
+    background-color: #51dcc5;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
+
+.featured-posts {
+    margin-top: 300px;
+}
+
+.featured-posts h2 {
+    color: rgb(99, 96, 96);
+    font-size: 25px;
+}
+
+.featured-posts h6 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.featured-posts h4 {
+    margin: 0;
+    padding: 0;
+    color: #51dcc5;
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.reviews {
+    margin-top: 300px;
+}
+
+.reviews img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: #51dcc5 solid 5px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.reviews i {
+    padding: 60px;
+    border: #51dcc5 solid 2px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.end {
+    margin-top: 150px;
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end input {
+    width: 49%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: rgb(241, 241, 241);
+    text-align: start;
+}
+
+.end a {
+    border-radius: 20px;
+}
+
+.end iframe {
+
+    border-radius: 20px;
+}
+
+.circle-bar-text {
+    font-size: 25px;
+    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 4px #51dcc5 solid;
+    border-radius: 50%;
+    margin-top: 40px;
+
+}
+
+.progresses img {
+    width: 400px;
+    object-fit: contain;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 786px) {
+    .title {
+      text-align: center;
+    }
+  }
